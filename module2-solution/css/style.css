@@ -1,0 +1,88 @@
+/********** Base styles **********/
+html {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 200%;
+  text-align: center;
+}
+
+footer{
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	bottom: 0px;
+}
+.content{
+	color: #000000;
+	background-color: #e0ebfc;
+	padding: 0px 10px 10px 10px;
+	border: 1px solid #000000;
+	margin: 15px;
+}
+.content p{
+	clear: right;
+}
+.content h2 {
+	text-align: right;
+	float: right;
+	padding: 5px 35px;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	margin: 0px -10px 10px 0px;
+}
+
+#chicken h2 {
+	background-color: #f2a918;
+}
+
+#beef h2{
+	background-color: #f7e816;
+}
+
+#sushi h2{
+	background-color: #f95940;
+}
+.row {
+  width: 100%;
+  padding: 0px 10px;
+
+}
+
+/********** Small devices **********/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+ .col-sm-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+
+  .col-lg-4 {
+    width: 33%;
+  }
+}
+
