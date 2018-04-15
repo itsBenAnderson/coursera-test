@@ -4,6 +4,7 @@
 body .content{
   height: 1000px;
   background-color: #efbaa2;
+  font-size: 1.33em;
 }
 @media (max-width:767px) {
   #collapsable-nav ul{
