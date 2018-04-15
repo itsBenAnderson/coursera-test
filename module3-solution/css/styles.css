@@ -1,0 +1,35 @@
+.navbar-brand{
+  text-align: left;
+}
+body .content{
+  height: 1000px;
+  background-color: #efbaa2;
+}
+@media (max-width:767px) {
+  #collapsable-nav ul{
+    background-color:#c7dbfc;
+    margin: 0 0 0 0;
+    pading: 0 0 0 0;
+  }
+
+.fooditem a{
+  background-color: inherit;
+}
+#chicken h2 {
+	font-size: 2em;
+  text-align: center;
+}
+
+#beef h2{
+	font-size: 2em;
+  text-align: center;
+}
+
+#sushi h2{
+	font-size; 2em;
+  text-align: center;
+}
+
+.foodItem{
+  text-align: center;
+}
