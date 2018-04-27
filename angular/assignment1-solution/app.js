@@ -21,7 +21,7 @@
                 }
             }
             else {
-                $scope.message = "What did you have for lunch?";
+                $scope.message = "Please enter data first.";
             }
         };
     }
